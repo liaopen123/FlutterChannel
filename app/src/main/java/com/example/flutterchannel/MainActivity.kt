@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         jump_flutter_activity.setOnClickListener {
             startActivity(FlutterActivity.createDefaultIntent(this))
-
         }
     }
 }
